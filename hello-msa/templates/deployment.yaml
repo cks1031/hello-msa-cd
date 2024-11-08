@@ -48,7 +48,7 @@ spec:
     spec:
       containers:
         - name: msa-usersrv
-          image: nanakia1031/msa-userservice
+          image: nanakia1031/msa-user-service
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
